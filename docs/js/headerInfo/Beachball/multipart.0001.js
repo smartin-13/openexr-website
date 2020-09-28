@@ -1,10 +1,9 @@
-<p class="pHeaderInfo"><br>\
+var container = document.getElementById('EXRHeaderInfoDiv');
+var content = document.createElement("span");
+content.innerHTML = '<p class="pHeaderInfo">\
 file multipart.0001.exr:<br>\
-<br>\
 file format version: 2, flags 0x1000<br>\
-<br>\
-<br>\
- part 0:<br>\
+part 0:<br>\
 channels (type chlist):<br>\
     A, 16-bit floating-point, sampling 1 1<br>\
     B, 16-bit floating-point, sampling 1 1<br>\
@@ -22,7 +21,6 @@ screenWindowWidth (type float): 1<br>\
 type (type string): "scanlineimage"<br>\
 view (type string): "right"<br>\
 <br>\
-<br>\
  part 1:<br>\
 channels (type chlist):<br>\
     Z, 16-bit floating-point, sampling 1 1<br>\
@@ -37,7 +35,6 @@ screenWindowCenter (type v2f): (0 0)<br>\
 screenWindowWidth (type float): 1<br>\
 type (type string): "scanlineimage"<br>\
 view (type string): "left"<br>\
-<br>\
 <br>\
  part 2:<br>\
 channels (type chlist):<br>\
@@ -55,7 +52,6 @@ screenWindowWidth (type float): 1<br>\
 type (type string): "scanlineimage"<br>\
 view (type string): "left"<br>\
 <br>\
-<br>\
  part 3:<br>\
 channels (type chlist):<br>\
     whitebarmask.mask, 16-bit floating-point, sampling 1 1<br>\
@@ -70,7 +66,6 @@ screenWindowCenter (type v2f): (0 0)<br>\
 screenWindowWidth (type float): 1<br>\
 type (type string): "scanlineimage"<br>\
 view (type string): "left"<br>\
-<br>\
 <br>\
  part 4:<br>\
 channels (type chlist):<br>\
@@ -90,7 +85,6 @@ screenWindowWidth (type float): 1<br>\
 type (type string): "scanlineimage"<br>\
 view (type string): "left"<br>\
 <br>\
-<br>\
  part 5:<br>\
 channels (type chlist):<br>\
     Z, 16-bit floating-point, sampling 1 1<br>\
@@ -105,7 +99,6 @@ screenWindowCenter (type v2f): (0 0)<br>\
 screenWindowWidth (type float): 1<br>\
 type (type string): "scanlineimage"<br>\
 view (type string): "right"<br>\
-<br>\
 <br>\
  part 6:<br>\
 channels (type chlist):<br>\
@@ -123,7 +116,6 @@ screenWindowWidth (type float): 1<br>\
 type (type string): "scanlineimage"<br>\
 view (type string): "right"<br>\
 <br>\
-<br>\
  part 7:<br>\
 channels (type chlist):<br>\
     disparityL.x, 16-bit floating-point, sampling 1 1<br>\
@@ -138,7 +130,6 @@ pixelAspectRatio (type float): 1<br>\
 screenWindowCenter (type v2f): (0 0)<br>\
 screenWindowWidth (type float): 1<br>\
 type (type string): "scanlineimage"<br>\
-<br>\
 <br>\
  part 8:<br>\
 channels (type chlist):<br>\
@@ -155,7 +146,6 @@ screenWindowCenter (type v2f): (0 0)<br>\
 screenWindowWidth (type float): 1<br>\
 type (type string): "scanlineimage"<br>\
 <br>\
-<br>\
  part 9:<br>\
 channels (type chlist):<br>\
     whitebarmask.mask, 16-bit floating-point, sampling 1 1<br>\
@@ -171,3 +161,5 @@ screenWindowWidth (type float): 1<br>\
 type (type string): "scanlineimage"<br>\
 view (type string): "right"<br>\
 </p><br>\
+';
+container.appendChild(content);
