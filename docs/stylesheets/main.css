@@ -422,15 +422,18 @@ h2
 .img-gallery {
   margin: 0.5em;
   border: 2px solid #A9A9A9;
+  border-radius: 8px;
   display: inline-block;
   width: 180px;
-  height: 209px;
-  background: #000;
+  height: 210px;
+  background: #f9f9f9;
 }
 
 .img-gallery:hover {
-  border: 1px solid #ca2e3c;
+  border: 2px solid #ca2e3c;
+  border-radius: 8px;
 }
+
 
 .img-gallery img {
   height: 176px;
@@ -459,9 +462,13 @@ h2
 
 .img-desc {
   color: #f9f9f9;
-  padding: 5px;
+  background: #A9A9A9;
+  padding: 2px;
   text-align: center;
+  vertical-align: middle;
   font-size:15px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
 }
 
 .pHeaderInfo{
@@ -521,28 +528,38 @@ div.img-desc4 {
 }*/
 .img-info{
 	margin: 2em auto;
-	padding: 5px;
+	padding: 1.5em;
 	max-width: 720px;
-
+	border: 3px solid #AAAAAA;
+	border-radius: 8px;
+	background: #f9f9f9;
 }
 #EXRImg{
+
+	margin: auto;
 	height: 100%;
-	width: 100%;
+	width: 100%;	
+	vertical-align: middle;
+    
 }
 #EXRHeaderInfoDiv {
 	margin: 2em auto;
 	height: 100%;
 	width: 100%;
-	border: 1.5px solid #A9A9A9;
+	border: 3px solid #AAAAAA;
+	border-radius: 8px;
 	column-count: 2;
 	padding: 2em;
 	max-width: 720px;
+	color: #222222;
+	background: #f9f9f9;
 	
 }
 p.pHeaderInfo{
 	font-family: "Arial","Open Sans", "Garamond", "Bookman", "Roboto", "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 10pt;
 	line-height: 14pt;
+
 	
 }
 /*test*/
